@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-color: #DAF7A6;
+}
+
+.container {
+    max-width: 300px; /* Reduced the size of the container */
+    margin: auto;
+    padding: 15px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.container div {
+    margin-bottom: 10px; /* Reduced margin-bottom */
+}
+
+h2 {
+    color: #581845; /* heading */
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 24px;
+    height: 24px;
+    background-color: #581845; /* Logo color */
+    border-radius: 50%;
+    margin-right: 10px; /* Space between logo and heading */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px; /* Adjusted padding */
+    box-sizing: border-box;
+}
+
+.gender-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Added gap between gender containers */
+}
+
+.gender-option {
+    width: 48%; /* Adjusted width for better spacing */
+    padding: 5px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s; /* Added transition for zoom effect */
+}
+
+.gender-option img {
+    width: 80px; /* Reduced image size */
+    height: 80px; /* Reduced image size */
+}
+
+.gender-option:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.gender-option.selected {
+    border-color: #581845; /* Color same as heading */
+}
+
+.result {
+    margin-top: 15px; /* Reduced margin-top */
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    width: 80%; /* Reduced width */
+    padding: 10px;
+    background-color: #581845;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s; /* Added transition for zoom effect */
+    text-align: center;
+    margin: 15px auto 0; /* Center button and add margin to top */
+}
+
+button:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
